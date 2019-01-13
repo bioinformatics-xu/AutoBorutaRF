@@ -64,8 +64,10 @@ for (d in 1:ncol(cellLine.class)) {
     predictors <- predictor.result.matrix[d,]
     predictors.filter <- unlist(predictors[-which((predictors == ""))])
     
-    if(is.null(predictors.filter)){
+    if(is.null(predictors.filter) & (length(which(predictors== "")) != 0)){
         input.data <- combine.feature[,which(colnames(combine.feature) %in% all.feature)]
+    }else if(is.null(predictors.filter) & (length(which(predictors== "")) == 0)){
+        input.data <- combine.feature[,which(colnames(combine.feature) %in% unlist(predictors))]
     }else{
         input.data <- combine.feature[,which(colnames(combine.feature) %in% predictors.filter)]
     }
