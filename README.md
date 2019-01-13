@@ -21,5 +21,7 @@ selected feature file (output by AutoBorutaRF.R)
 Output         
 classification results of ten-fold cross validation  
 
+### GDSC and CCLE datasets are available in following URL.  
+https://pan.baidu.com/s/1Ey3kmorA7P_cHuWt-qr66g
 
 Xu xiaolu 12/01/2019
