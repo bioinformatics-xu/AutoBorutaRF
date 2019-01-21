@@ -43,6 +43,7 @@ confusionMatrix.csv
 
 ### Example
 An example run is:
+
 First, set "dataSource <- 'GDSClung'" in AutoencoderBoruta.R function to use "GDSClung dataset" to identify the genetic features.
 Second, set "dataSource <- 'GDSClung'" in RandomForest.R function to use the selected features of "GDSClung dataset" to predict drug response.
 
