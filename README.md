@@ -4,7 +4,7 @@ AutoBorutaRF is a program by using Autoencoder network and Boruta algorithm for 
 ## Computational procedure
 The computational procedure implemented in AutoBorutaRF is aimed to identify the genetic features responsible for drug response classification and predict the drug response. The procedure includes two steps:
 1. Selecting the genetic features
-2. Predicting the drug response.
+2. Predicting the drug response
 
 These two steps use AutoencoderBoruta.R and RandomForest.R functions respectively.
 
