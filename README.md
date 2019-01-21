@@ -28,7 +28,7 @@ mut.csv
 predictor.csv
 (predictor.csv contains the selected features, with rows representing drugs. The first element in every row is the drug name, the rest are selected features of the drug.)
 
-### RandomForest.R is a classifier using features selected by AutoencoderBoruta.R  
+### RandomForest.R
 RandomForest.R is a classification function to predict drug response using the genetic features selected by AutoencoderBoruta.R.
 
 #### Input file:  
