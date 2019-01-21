@@ -50,6 +50,6 @@ Second, set "dataSource <- 'GDSClung'" in RandomForest.R function to use the sel
 
 
 ### GDSC and CCLE datasets are available in the following URL.  
-https://pan.baidu.com/s/1Ey3kmorA7P_cHuWt-qr66g
+https://1drv.ms/u/s!AuqTdFjFP1Q8arSHSFFCco2nwRw
 
 Xu xiaolu 12/01/2019
