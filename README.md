@@ -60,10 +60,9 @@ First, set "dataSource <- 'GDSClung'" in AutoencoderBoruta.R function to use "GD
 Second, set "dataSource <- 'GDSClung'" in RandomForest.R function to use the selected features of "GDSClung dataset" to predict drug response.
 
 ### Result
-In the resultTable.csv file, we show mean of some important evaluation criteria obtained by 10-fold cross validation of all the drugs. All the evaluation criteria except Matthews correlation coefficient (MCC) are obtained by confusionMatrix function (from R package "caret"). Each row corresponds to the results of each drug, for example, thapsigargin showing AUC 0.954, MCC 0.7436, accuracy 0.8556 and so on.
+In the resultTable.csv file, we show the mean of some important evaluation criteria obtained by 10-fold cross validation for all drugs. All the evaluation criteria except Matthews correlation coefficient (MCC) are obtained by "confusionMatrix" function (from R package "caret"). Each row corresponds to the results of each drug, for example, drug thapsigargin showing AUC 0.954, MCC 0.7436, accuracy 0.8556 and so on.
 
-In the confusionMatrix.csv, we show true positive (TP), false positive(FP), ture negtive(TN), and false negtive(FN) obtained by 10-fold cross validation of all the drugs. Each row corresponds to the results of each drug.
-
+In the confusionMatrix.csv file, we show the mean of true positive (TP), false positive(FP), ture negtive(TN), and false negtive(FN) obtained by 10-fold cross validation for all drugs. Each row corresponds to the results of each drug, for example, drug thapsigargin showing TP 4.2, FP	0.9, TN	3.9, and TN	0.5.
 
 ### Memory
 Because of the training of autoencoder with H2O package, we normally suggest 100 times the size of the dataset for the amount of memory required.
