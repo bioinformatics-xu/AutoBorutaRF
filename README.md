@@ -34,7 +34,15 @@ predictor.csv
 ### RandomForest.R
 RandomForest.R is a classification function to predict drug response using the genetic features selected by AutoencoderBoruta.R.
 
-#### Input file:  
+#### Input file: 
+class.csv (the same class.csv as AutoencoderBoruta.R)
+
+rna.csv (the same rna.csv as AutoencoderBoruta.R)
+
+cnv.csv (the same cnv.csv as AutoencoderBoruta.R)
+
+mut.csv (the same mut.csv as AutoencoderBoruta.R)
+
 predictor.csv (predictor.csv file contains the genetic features selected by AutoBorutaRF.R)
 
 #### Output files: 
