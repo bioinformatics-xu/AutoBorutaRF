@@ -59,6 +59,9 @@ First, set "dataSource <- 'GDSClung'" in AutoencoderBoruta.R function to use "GD
 
 Second, set "dataSource <- 'GDSClung'" in RandomForest.R function to use the selected features of "GDSClung dataset" to predict drug response.
 
+### Result
+In the result file, 
+
 ### Memory
 Because of the training of autoencoder with H2O package, we normally suggest 100 times the size of the dataset for the amount of memory required.
 
