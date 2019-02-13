@@ -24,6 +24,8 @@ cnv.csv
 mut.csv
 (mut.csv contains the gene mutation feature matrix, with rows representing samples and columns representing genes. The elements in the gene mutation feature matrix are binary-valued, "1" for mutation and "0" for wild type.)
 
+#### Notice: Class.csv is the label file, and it is mandatory for input; rna.csv, cnv.csv, and mut.csv are the feature files, and they are optional, users could input one, two, or all of them. In addition, the rna feature is the recommended explanatory feature for drug response prediction.
+
 #### Output files:
 predictor.csv
 (predictor.csv contains the selected features, with rows representing drugs. The first element in every row is the drug name, the rest are selected features of the drug.)
